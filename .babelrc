@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    ["module-alias", [
+      { "src": "./src", "expose": "observable-proxy" }
+    ]]
+  ],
+  "presets": [
+    "latest",
+    "flow"
+  ]
+}

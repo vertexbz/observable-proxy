@@ -1,0 +1,7 @@
+// @flow
+declare export default class Observable {
+  static isObservable: (observable: Observable) => boolean;
+  static observe: (observable: Observable, ...args: any) => () => void;
+
+  constructor<O: {}>(data: O): O;
+}
